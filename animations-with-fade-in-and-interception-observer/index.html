@@ -8,8 +8,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet"> 
 
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="estilos.css">
+	<script defer src="script.js"></script>
 	<title>Animación al Scrollear</title>
 </head>
 <body>
@@ -18,50 +18,42 @@
 	</div>
 	<div class="container">
 		<div class="evento">
-			<div class="foto" data-aos="fade-up">
-				<img src="./img/1.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/1.jpg" class="fade-in-left" id="imagen1" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">9 de Enero de 2021</h3>
 		</div>
 		<div class="evento">
-			<div class="foto" data-aos="fade-down">
-				<img src="./img/2.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/2.jpg" class="fade-in-right"  id="imagen2" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">3 de Febrero de 2021</h3>
 		</div>
 		<div class="evento">
-			<div class="foto" data-aos="fade-left">
-				<img src="./img/3.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/3.jpg" class="fade-in-left" id="imagen3" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">7 de Junio de 2022</h3>
 		</div>
 		<div class="evento">
-			<div class="foto" data-aos="fade-right">
-				<img src="./img/4.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/4.jpg" class="fade-in-right" id="imagen4" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">18 de Agosto de 2023</h3>
 		</div>
 		<div class="evento">
-			<div class="foto" data-aos="fade-up">
-				<img src="./img/5.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/5.jpg" class="fade-in-left" id="imagen5" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">26 de Noviembre de 2024</h3>
 		</div>
 		<div class="evento">
-			<div class="foto" data-aos="fade-up">
-				<img src="./img/6.jpg" alt="">
+			<div class="foto">
+				<img data-src="./img/6.jpg" class="fade-in-right" id="imagen6" loading="lazy" alt="">
 			</div>
 			<h3 class="fecha">7 de Diciembre de 2021</h3>
 		</div>
 	</div>
 
-
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init({
-			duration: 1000,
-			once: true
-		});
-	</script>
 </body>
 </html>
