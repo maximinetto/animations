@@ -3,4 +3,4 @@
 
 ![Como Animar elementos al Scrollear | Animate on Scroll (Javascript)](https://raw.githubusercontent.com/falconmasters/tutorial-animate-on-scroll/master/img/thumb.png)
 
-Por: [FalconMasters](http://www.falconmasters.com)
+Por: [FalconMasters](http://www.falconmasters.com)"# animations" 
